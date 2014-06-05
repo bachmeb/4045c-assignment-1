@@ -6,7 +6,7 @@ class First {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World!");
 		
-		Student student = new Student("Brian","Bachmeyer","bachmeb@mail.uc.edu");
+		StudentOld student = new StudentOld("Brian","Bachmeyer","bachmeb@mail.uc.edu");
 		
 		System.out.println("First Name: " + student.firstName);
 		System.out.println("Last Name: " + student.lastName);
