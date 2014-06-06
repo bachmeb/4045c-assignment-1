@@ -3,6 +3,7 @@ package org.uc.bachmeb;
 import java.io.Serializable;
 import java.lang.Integer;
 import java.lang.String;
+import java.util.ArrayList;
 
 import javax.persistence.*;
 
@@ -22,6 +23,10 @@ public class School implements Serializable {
 	private String schoolName;
 	private String schoolAddress;
 	private Integer schoolEnrollment;
+	
+	//@OneToMany(mappedBy="school", cascade= CascadeType.ALL)  
+    //private ArrayList<Course> courses; 
+	
 	private static final long serialVersionUID = 1L;
 
 	public School() {

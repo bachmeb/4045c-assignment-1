@@ -20,6 +20,12 @@ public class Course implements Serializable {
 	private long id;
 	private String courseTitle;
 	private Integer courseNumber;
+	
+
+    @ManyToOne(cascade= CascadeType.ALL)  
+    @JoinColumn(name = "SCHOOL_ID", insertable = false, updatable = false, nullable = false)  
+    private School school;  
+    
 	private static final long serialVersionUID = 1L;
 
 	public Course() {
