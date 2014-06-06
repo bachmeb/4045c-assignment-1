@@ -61,6 +61,13 @@ class First {
 		em.getTransaction().begin();em.persist(instructor);
 		em.getTransaction().commit();
 		
+		
+		Student foundStudent = em.find(Student.class, new Integer(123));
+		
+		
+		System.out.println("em First Name: " + foundStudent.getStudentFirstName());
+		System.out.println("em Last Name: " + foundStudent.getStudentLastName());
+		
 	}
 
 }
