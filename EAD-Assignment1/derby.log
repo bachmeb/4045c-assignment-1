@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Fri Jun 06 05:09:24 UTC 2014:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0146-6f94-d927-0000058b9d60 
-on database directory C:\DEV\db\EadAssignment1DB with class loader sun.misc.Launcher$AppClassLoader@67ee75a5 
+Fri Jun 06 05:26:07 UTC 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0146-6fa4-259a-000002222468 
+on database directory C:\DEV\db\EadAssignment1DB with class loader sun.misc.Launcher$AppClassLoader@586dd8f1 
 Loaded from file:/C:/DEV/derby/db-derby-10.10.2.0-bin/lib/derby.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_60-b19

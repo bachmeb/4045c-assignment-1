@@ -33,7 +33,9 @@ class First {
 
 		Course course = new Course();
 		course.setCourseTitle("Math");
-		course.setCourseNumber(101);		
+		course.setCourseNumber(101);
+		course.setSchool(school);
+		
 		em.getTransaction().begin();em.persist(course);
 		em.getTransaction().commit();
 		

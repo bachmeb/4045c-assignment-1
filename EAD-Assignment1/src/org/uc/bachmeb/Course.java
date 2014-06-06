@@ -23,7 +23,7 @@ public class Course implements Serializable {
 	
 
     @ManyToOne(cascade= CascadeType.ALL)  
-    @JoinColumn(name = "SCHOOL_ID", insertable = false, updatable = false, nullable = false)  
+    @JoinColumn(name = "SCHOOL_ID")  
     private School school;  
     
 	private static final long serialVersionUID = 1L;
@@ -45,6 +45,14 @@ public class Course implements Serializable {
 
 	public void setCourseNumber(Integer courseNumber) {
 		this.courseNumber = courseNumber;
+	}
+
+	public School getSchool() {
+		return school;
+	}
+
+	public void setSchool(School school) {
+		this.school = school;
 	}
    
 }
